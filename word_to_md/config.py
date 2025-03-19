@@ -4,6 +4,5 @@ from transformers import BertTokenizer
 TOKENIZER = BertTokenizer.from_pretrained("bert-base-chinese")
 
 # 配置参数
-MAX_TOKENS = 800
-SEGMENT_SEPARATOR = "*****"
+SEGMENT_SEPARATOR = "&&&&&"
 NAMESPACES = {'w': 'http://schemas.openxmlformats.org/wordprocessingml/2006/main'}

@@ -31,7 +31,7 @@ pip install -r requirements.txt
 ## 使用方法
 使用命令行运行以下命令，将 Word 文档转换为 Markdown：
 ```sh
-python main.py input.docx output.md
+python main.py input.docx output.md --max-tokens 1000
 ```
 - `input.docx`：输入的 Word 文件
 - `output.md`：输出的 Markdown 文件

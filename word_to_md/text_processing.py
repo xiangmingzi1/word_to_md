@@ -1,8 +1,8 @@
 import re
-from .config import TOKENIZER, MAX_TOKENS
+from .config import TOKENIZER
 
 
-def split_text_by_tokens(text, max_tokens=MAX_TOKENS):
+def split_text_by_tokens(text, max_tokens):
     """按 Token 限制拆分文本"""
     chunks = []
     current_chunk = []
