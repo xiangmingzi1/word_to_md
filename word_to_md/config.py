@@ -1,6 +1,9 @@
 from transformers import BertTokenizer
 
-tokenizer = BertTokenizer.from_pretrained("bert-base-chinese")
+# 初始化 tokenizer
+TOKENIZER = BertTokenizer.from_pretrained("bert-base-chinese")
 
-MAX_TOKENS = 2000
+# 配置参数
+MAX_TOKENS = 800
 SEGMENT_SEPARATOR = "*****"
+NAMESPACES = {'w': 'http://schemas.openxmlformats.org/wordprocessingml/2006/main'}
